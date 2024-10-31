@@ -3,13 +3,13 @@
     "paddy",
     "wheat",
     "barley",
-    "oilseeds",
+    "oilseed crops",
     "rabi maize",
     "sugarcane",
     "gram",
     "pea",
     "potato",
-    "vegetables",
+    "vegetable",
     "fruit",
     "animal husbandry",
     "fisheries",
@@ -20,45 +20,41 @@
     "paddy": {
       "advisory": [
         "Maintain adequate humidity for paddy cultivation.",
-        "Remove unwanted plants from the field for seed paddy.",
-        "Control False Smut Disease with recommended pesticides.",
-        "Control insect pests like raspberry insect and soldier insect."
+        "Remove unwanted plants from the field for seed harvesting.",
+        "Control False Smut Disease with recommended pesticides."
       ]
     },
     "wheat": {
       "advisory": [
-        "Sowing time for wheat in unirrigated state is between 25 October and 0 November.",
-        "Arrange seeds of recommended wheat varieties.",
-        "Recommended varieties for barley for unhygienic conditions.",
-        "Sow recommended varieties for oilseed crops."
+        "Sow recommended wheat varieties between 25 October and 0 November.",
+        "Arrange seeds of recommended varieties for wheat cultivation."
       ]
     },
     "barley": {
       "advisory": [
-        "Sowing time for barley in unseasonal state is from 20 October to 0 November.",
-        "Recommended varieties for barley for unhygienic conditions."
+        "Sow barley between 20 October and 0 November.",
+        "Arrange seeds of recommended barley varieties."
       ]
     },
-    "oilseeds": {
+    "oilseed crops": {
       "advisory": [
-        "Sow recommended varieties for mustard/mustard in irrigated areas."
+        "Sow recommended varieties for mustard cultivation."
       ]
     },
     "rabi maize": {
       "advisory": [
-        "Sow hybrids and complex varieties for rabi maize cultivation."
+        "Sow recommended hybrids and varieties for maize cultivation."
       ]
     },
     "sugarcane": {
       "advisory": [
         "Sow early high-sugar varieties of sugarcane.",
-        "Prepare fields and sow sugarcane in winter season.",
-        "Sow organic manure and use pressmaid fertilizer."
+        "Prepare fields and use recommended fertilizers for sugarcane cultivation."
       ]
     },
     "gram": {
       "advisory": [
-        "Sow recommended variety for non-irrigated gram."
+        "Sow recommended gram variety by the second or third week of October."
       ]
     },
     "pea": {
@@ -68,39 +64,34 @@
     },
     "potato": {
       "advisory": [
-        "Prepare field and seed arrangements for main potato crop.",
-        "Sow recommended potato varieties."
+        "Prepare for main potato crop from 15 October with recommended varieties."
       ]
     },
-    "vegetables": {
+    "vegetable": {
       "advisory": [
-        "Suitable time for nursery sowing of cauliflower, cabbage, capsicum, and tomatoes for Rabi vegetable sowing.",
-        "Use neem-based products and organic insecticides for pest control."
+        "Sow nursery for Rabi vegetables and transplant seedlings."
       ]
     },
     "fruit": {
       "advisory": [
-        "Harvest banana leaves and stack fruit plants to prevent beetle pest infestation.",
-        "Spray recommended chemicals for disease control in bananas and mangoes."
+        "Harvest and manage fruit crops as per recommended practices."
       ]
     },
     "animal husbandry": {
       "advisory": [
-        "Vaccination against Foot and Mouth Disease and Lumpy Skin Disease.",
-        "Feed newborn animals within two hours of birth.",
-        "Consult veterinarian for anti-parasitic drugs."
+        "Vaccinate against Foot and Mouth Disease and Lumpy Skin Disease.",
+        "Take special care of newborn animals."
       ]
     },
     "fisheries": {
       "advisory": [
-        "Accumulate carp fishes in ponds.",
-        "Use supplementary feed for fish load in the pond."
+        "Accumulate carp fishes in ponds as per recommended ratios.",
+        "Use supplementary feed for fish load in ponds."
       ]
     },
     "sericulture": {
       "advisory": [
-        "Spray insecticides for pest management in mulberry sector.",
-        "Clean silkworms and transfer them to another tray for disease prevention."
+        "Manage pest control in mulberry sector for sericulture."
       ]
     }
   },
