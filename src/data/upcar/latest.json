@@ -9,11 +9,8 @@
     "gram",
     "pea",
     "potato",
-    "vegetable",
-    "fruit",
-    "animal husbandry",
-    "fisheries",
-    "sericulture"
+    "vegetables",
+    "fruit"
   ],
   "general_advisory": "In the current scenario of weather in the state, farmers have to manage their agriculture for the next two weeks. The following recommendations are made: - n lines of general advisory.",
   "crops_data": {
@@ -26,14 +23,12 @@
     },
     "wheat": {
       "advisory": [
-        "Sow recommended wheat varieties between 25 October and 0 November.",
-        "Arrange seeds of recommended varieties for wheat cultivation."
+        "Sow recommended wheat varieties between 25 October and 0 November."
       ]
     },
     "barley": {
       "advisory": [
-        "Sow barley between 20 October and 0 November.",
-        "Arrange seeds of recommended barley varieties."
+        "Sow barley varieties between 20 October and 0 November."
       ]
     },
     "oilseed crops": {
@@ -43,18 +38,18 @@
     },
     "rabi maize": {
       "advisory": [
-        "Sow recommended hybrids and varieties for maize cultivation."
+        "Sow Rabi maize hybrids and complex varieties."
       ]
     },
     "sugarcane": {
       "advisory": [
         "Sow early high-sugar varieties of sugarcane.",
-        "Prepare fields and use recommended fertilizers for sugarcane cultivation."
+        "Prepare fields and use recommended fertilizers."
       ]
     },
     "gram": {
       "advisory": [
-        "Sow recommended gram variety by the second or third week of October."
+        "Sow gram varieties by the second or third week of October."
       ]
     },
     "pea": {
@@ -67,7 +62,7 @@
         "Prepare for main potato crop from 15 October with recommended varieties."
       ]
     },
-    "vegetable": {
+    "vegetables": {
       "advisory": [
         "Sow nursery for Rabi vegetables and transplant seedlings."
       ]
@@ -75,23 +70,6 @@
     "fruit": {
       "advisory": [
         "Harvest and manage fruit crops as per recommended practices."
-      ]
-    },
-    "animal husbandry": {
-      "advisory": [
-        "Vaccinate against Foot and Mouth Disease and Lumpy Skin Disease.",
-        "Take special care of newborn animals."
-      ]
-    },
-    "fisheries": {
-      "advisory": [
-        "Accumulate carp fishes in ponds as per recommended ratios.",
-        "Use supplementary feed for fish load in ponds."
-      ]
-    },
-    "sericulture": {
-      "advisory": [
-        "Manage pest control in mulberry sector for sericulture."
       ]
     }
   },
