@@ -1,77 +1,99 @@
 {
   "names_of_crops": [
-    "paddy",
     "wheat",
-    "barley",
-    "oilseed crops",
-    "rabi maize",
+    "paddy",
+    "maize",
     "sugarcane",
-    "gram",
-    "pea",
-    "potato",
+    "oilseeds",
+    "pulses",
     "vegetables",
-    "fruit"
+    "horticulture",
+    "animal husbandry",
+    "fisheries"
   ],
-  "general_advisory": "In the current scenario of weather in the state, farmers have to manage their agriculture for the next two weeks. The following recommendations are made: - n lines of general advisory.",
+  "general_advisory": "In the current scenario of weather in the state, farmers have to manage their agriculture for the next two weeks. The following recommendations are made: -\n- Never burn crop residue after harvesting kharif crops. They have a range of about 20 km. The crop residue decomposes in the soil within 20 to 30 days when mixed with the soil turning plough at the rate of urea at the time of ploughing / tilling.\n- The crop residue can be sprayed and decomposed in the fields by getting the decomposer from the Seed and Agriculture Defense Centers of the Agriculture Department.\n- Biopesticides Trichoderma viridi per cent WP or Trichoderma harzianum 2 per cent WP for control of soil and seed borne diseases. 2.50 per kg. By sprinkling 60-75 k.m. rotten cow dung manure mixed with light water and keeping it in shade for 8-0 days and then adding it to the land at the last ploughing before sowing, it helps in the management of diseases like uncovered tendua, karnal rot, etc.\n- Keep the fields and drains free of weeds.\n- Advanced varieties of Rabi crops should be selected according to regional compatibility and seasonality. For more production of wheat sow before 45th November.\n- Use only healthy, pure and certified seeds of the selected variety for the sowing of Rabi crops. If certified seeds are not available, sow only after seed treatment. Seeds must be replaced every third year.\n- In Rabi crop wheat, fertilizers should be used in balanced quantity on the basis of soil test. If zinc has not been used at the time of sowing in the previous crop, zinc sulphate should be used in the standing crop as per the recommendation.\n- Autumn sugarcane must be intercropped with potatoes, yellow mustard, vegetable peas, lentils, etc. as intercrops. The intercropping variety should not be too vegetatively dispersed.\n- GIS based National Pest Surveillance System (57285) mobile app has been developed by Government of India for targeted pests / crop combinations using latest 4G technology. The OS can be downloaded by typing 7538 in the Play Store. The app can capture information about the spread of the epidemic, pest / disease identification, pest hot spots, etc., so that farmers can get timely expert advice for pest disease management, economic loss level-based decision-making, etc.",
   "crops_data": {
-    "paddy": {
-      "advisory": [
-        "Maintain adequate humidity for paddy cultivation.",
-        "Remove unwanted plants from the field for seed harvesting.",
-        "Control False Smut Disease with recommended pesticides."
-      ]
-    },
     "wheat": {
       "advisory": [
-        "Sow recommended wheat varieties between 25 October and 0 November."
+        "Wheat varieties like DBW, 87 (Karan Vandana), PBW, -826, HD-3249, K-006, HD-2967, K-0307, DBW-39, DBW, 222 (Karanarendra), DBW, 303 (Karan Vaishnavi), W, H. -05, W, H. Sow 270 etc. by 45th November.",
+        "Recommended varieties for Bundelkhand region of the state such as K-676, K-347, DL- 803-3, Raj-4555, HI-838, HI-8498, K-907, W. Sow H-47, GW, 273, GW-322. Haa",
+        "Sow recommended varieties for sowing in fallow land like KRL-283, KRL-9, KRL-240 and KRL-23 etc. by 20th November.",
+        "Timely sowing of heat tolerant recommended varieties HD-3293, DBW-327 (Karan Shivani), DBW-07, DBW-90 (E), WB-90 (E) in irrigated condition in changing climatic conditions. Sow -05, CBW, -38.",
+        "\"Sow the recommended varieties of wheat (durum wheat) in irrigated condition like PBW-34, PBW-25, PBW-233, HI-838, HI-873, HI-8737, HI-8759, UP-2784, GW-273, HD-4728, HD-943, etc.",
+        "Sowing of wheat from 20. Keep sufficient moisture at a line-to-line distance and a depth of 5 cm.",
+        "\"For simultaneous control of both creeping and broad-leaf weeds, Pendimethalin is 30% EC at 3. 3 litres per kg. Spray within 3 days after sowing by dissolving in 600 litres of water at the rate of."
       ]
     },
-    "barley": {
+    "paddy": {
       "advisory": [
-        "Sow barley varieties between 20 October and 0 November."
+        "Harvest the paddy crop at 90% maturity or when the rice grains attain a golden hue, otherwise grain dispersal may reduce productivity.",
+        "Store paddy seeds at 10 to 2 per cent moisture (in the event of a bite sound)."
       ]
     },
-    "oilseed crops": {
+    "maize": {
       "advisory": [
-        "Sow recommended varieties for mustard cultivation."
-      ]
-    },
-    "rabi maize": {
-      "advisory": [
-        "Sow Rabi maize hybrids and complex varieties."
+        "Rabi maize hybrids like PMH-3, HQPM-3, Seedtech-2324, Shaktiman-3, Buland, complex maize varieties Sharadmani, Shakti-3. Sow pearl-popcorn, Shiat's macaque-3, sweet corn Priya sweet corn and Madhuri sweet corn for lava and HM-4 and Azad lotus species for baby corn."
       ]
     },
     "sugarcane": {
       "advisory": [
-        "Sow early high-sugar varieties of sugarcane.",
-        "Prepare fields and use recommended fertilizers."
+        "Sugarcane varieties approved in the state for autumn sugarcane sowing viz., Co. S-3235, Co. LK-4204. 5023, KO. Lakh-6470, KO. Lakh-6202, Ko. SH-7234, Ko. SH-6233, Ko. Complete the sowing of C-3452 and C048 by 45th November.",
+        "Planting of sugarcane nursery prepared by single bud should be done immediately when the field is empty, keeping a distance of 4 feet from line to line and 4 feet from plant to plant.",
+        "The soil treatment at the time of sowing must be done from Trichoderma 40 kg per hectare. Do not sow sugarcane in the field affected by red rot disease and do not take pedi also. Do trash mulching in pedi.",
+        "Seed sugarcane treated with bavastin 0. 4% or thiophenate methyl 0. (g / l). water) must be done by percentage.",
+        "While supplying sugarcane to sugar mills, cut the sugarcane from the ground surface.",
+        "Harvest the sugarcane only when the SMS of the supply ticket arrives on your mobile."
       ]
     },
-    "gram": {
+    "oilseeds": {
       "advisory": [
-        "Sow gram varieties by the second or third week of October."
+        "Choose Vardaan, Radhika and Aashirwad varieties of mustard / mustard for delayed sowing.",
+        "Within 45 to 20 days of sowing, it is necessary to remove (thinning) dense plants and reduce their mutual distance to 45 cm.",
+        "Topdressing the remaining amount of nitrogen after the first irrigation in rye mustard.",
+        "\"Sow flax seeds of indigenous progressive varieties like Rajani, Utera flaxseed, JLS-95, Mau Azad, Sharda, Shekhar, Padmini, Uma, Indu, Utera flaxseed-2, Rajan and Kota flaxseed-6 and bi-national varieties like Ruchi, Parvati and Rashmi, Azad, Pragya."
       ]
     },
-    "pea": {
+    "pulses": {
       "advisory": [
-        "Sow recommended pea varieties."
-      ]
-    },
-    "potato": {
-      "advisory": [
-        "Prepare for main potato crop from 15 October with recommended varieties."
+        "Pea varieties such as IPFD 3 - 2, IPFD 2 - 8, IPFD 6 - 3, IPFD 9 - 2, Malviya Pea - 45 for the whole of UP, Jai (K. PMR-522), Harial, Pant P-42, Pant P-250, Dantiwada pea for North Eastern plains, HFP-529, IPF green 6-3, light for Bundelkhand, IPFD 4-45, IPFD 1-2, IPFD 204-2."
       ]
     },
     "vegetables": {
       "advisory": [
-        "Sow nursery for Rabi vegetables and transplant seedlings."
+        "Add rabi vegetables like cauliflower, capsicum, tomatoes, etc. and do weeding, mulching, top dressing, and irrigation as required in the pre-planted plant. Topdressing at the rate of 50 kg urea / ha should be done in the standing crop of cauliflower and cabbage.",
+        "Sow pea varieties like Arkil, Pant matar-455, Pusa Sri, Kashinandani, Kashiudaya, Kashimukti, Azad matar-3, Albizar, Kashi ageti, Pusa matar-3 etc.",
+        "Sow progressive varieties of garlic like Agrifound White, Yamuna White (G-4), Yamuna White-2 (G-50), Yamuna White-3 (G-282), Pant Lohit and Agrifound Parvati.",
+        "Arrange seeds for nursery of recommended varieties of Rabi onions like Bhimakiran, Bhimashakti, Bhimashweta, Kalyanpur Lal Gol, Pusa Ratnakar, Agrifound Light Red, Agrifound White, Arkaniketan, Pusa Madhuvi and Early Greno.",
+        "This is the best time to sow spice crops like coriander, fennel, fenugreek, kalonji, celery, cumin and soya.",
+        "Sow the recommended varieties of spinach, radish, turnip, beetroot, carrot."
       ]
     },
-    "fruit": {
+    "horticulture": {
       "advisory": [
-        "Harvest and manage fruit crops as per recommended practices."
+        "Bananas may have an infestation of the beetle bug in the current season, for control of which monocrotophos (. 25 ml per litre of water) or add carbofuran at the rate of 3 - 4 gm per plant to the sieve and soil.",
+        "Cultivate potatoes, chillies, tomatoes, peas, and gladiolus as intercrops for the first 40 years of high yield in the mango orchard.",
+        "Borex (6 to 8 gm) for prevention of yeast infection in gooseberries. Sprinkle per litre of water) and apply the recommended amount of fertilizers to the plates.",
+        "To prevent scabies in lemons, spray a solution of copper oxychloride 2 to 3 grams or streptocycline 600 mg per liter of water."
+      ]
+    },
+    "animal husbandry": {
+      "advisory": [
+        "Foot and mouth disease (FMD) vaccination is being carried out free of cost in 5 districts of Western Uttar Pradesh till 8th December.",
+        "Seeds of oats and berseem are available in the departmental areas at a fixed price and hence can be procured by the cattle rearers / farmers.",
+        "Under the additional fodder development programme, Berseem certified fodder seed mini kits are being provided free of cost to the cattle rearers / farmers during the Rabi season.",
+        "Pt. Deen Dayal Upadhyaya Mela is being organized in the villages of Mandal / District and Development Block in which free medical treatment, medicines and seminars are also being organized.",
+        "The Mobile Veterinary Unit Scheme is being operated by the Department to provide veterinary treatment at the doorsteps of farmers / cattle rearers. To take advantage of this scheme, all the farmers / cattle rearers can call the toll fee helpline no. You can take advantage of the plan by contacting -962."
+      ]
+    },
+    "fisheries": {
+      "advisory": [
+        "The use of supplements for fish in the pond depends on the body weight of the fish. Do not exceed 8%.",
+        "To maintain the quality of the soil in the pond, soil probiotics at the rate of 400 grams per acre or 40 kg. Use geolite mixed with moist sand at the rate of g / acre.",
+        "Be sure to net at the end of the month in a pond with carp fish.",
+        "400 gm per acre to protect the fish from infection. Use potassium permanganate or a water sanitizer at a tax rate of 500 ml per acre.",
+        "If the water in the pond is too green, stop using lime and chemical fertilizers and dissolve 800 grams of copper sulphate in the water."
       ]
     }
   },
-  "date": "10-10-2024"
+  "date": "06-11-2024"
 }
