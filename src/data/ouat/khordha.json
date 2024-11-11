@@ -1,110 +1,132 @@
 {
   "weather_details": {
-    "19/10/2024": {
-      "rainfall": 5,
-      "t_max": 36,
-      "t_min": 26,
-      "rh_max": 95,
-      "rh_min": 65,
-      "wind_speed": 2,
-      "wind_direction": 9,
-      "cloud_cover": 4
-    },
-    "20/10/2024": {
-      "rainfall": 5,
-      "t_max": 35,
-      "t_min": 24,
-      "rh_max": 94,
-      "rh_min": 63,
-      "wind_speed": 2,
-      "wind_direction": 321,
-      "cloud_cover": 4
-    },
-    "21/10/2024": {
-      "rainfall": 5,
-      "t_max": 35,
-      "t_min": 24,
-      "rh_max": 94,
-      "rh_min": 63,
-      "wind_speed": 2,
-      "wind_direction": 356,
-      "cloud_cover": 7
-    },
-    "22/10/2024": {
+    "06/11/2024": {
       "rainfall": 0,
-      "t_max": 34,
-      "t_min": 24,
-      "rh_max": 87,
-      "rh_min": 49,
-      "wind_speed": 7,
+      "t_max": 32,
+      "t_min": 22,
+      "rh_max": 88,
+      "rh_min": 51,
+      "wind_speed": 6,
       "wind_direction": 357,
-      "cloud_cover": 7
+      "cloud_cover": 5
     },
-    "23/10/2024": {
-      "rainfall": 10,
-      "t_max": 34,
-      "t_min": 23,
-      "rh_max": 86,
-      "rh_min": 48,
-      "wind_speed": 9,
-      "wind_direction": 2,
-      "cloud_cover": 9
+    "09/11/2024": {
+      "rainfall": 0,
+      "t_max": 33,
+      "t_min": 21,
+      "rh_max": 91,
+      "rh_min": 55,
+      "wind_speed": 7,
+      "wind_direction": 90,
+      "cloud_cover": 4
     }
   },
   "names_of_crops": [
-    "paddy",
-    "black gram",
+    "rice",
+    "rabi pulses",
+    "oilseeds",
+    "vegetables",
     "green gram",
-    "onion",
-    "bitter gourd",
+    "black gram",
+    "cowpea",
+    "field pea",
+    "lentil",
+    "groundnut",
+    "tori",
     "brinjal",
-    "sheep",
-    "goats"
+    "tomato",
+    "chilli",
+    "marigold",
+    "rose",
+    "fisheries"
   ],
-  "general_advisory": "The overall crop condition is normal. Top dressing of fertilizer is ongoing. Harvesting of crops like maize has started. Sugarcane is at a grand growth stage. Farmers are advised to control pests and diseases based on specific recommendations.",
+  "general_advisory": "Farmers are advised to proceed with sowing of Rabi pulses, oilseeds, and vegetables. Proper field surveillance for pests and diseases is recommended. Micronutrient deficiency may occur in crops due to waterlogged soil conditions.",
   "crops_data": {
-    "paddy": {
+    "rice": {
       "advisory": [
-        "False smut: Spray Propiconazole or Hexaconazole @ 100 ml or Copper oxychloride @ 250 g in 200 lt of water per acre",
-        "Neck Blast: Drain excess water and spray Hexaconazole or Azoxystrobin+ Difenoconazole"
+        "Harvest rice crops which have reached 85% maturity and dry to proper moisture levels for consumption and seed purposes."
       ]
     },
-    "black gram": {
+    "rabi pulses": {
       "advisory": [
-        "Pod Borer Management: Spray Emamectin Benzoate 5% SG @ 80 ml/acre or Profenophos 50 % EC @ 400 ml/acre"
+        "Grow short-duration Rabi crops like Green gram, Black gram, Cowpea, Field pea, Lentil, Groundnut, Tori."
+      ]
+    },
+    "oilseeds": {
+      "advisory": [
+        "Properly utilize soil moisture for sowing oilseeds in medium/shallow lowlands."
+      ]
+    },
+    "vegetables": {
+      "advisory": [
+        "Sow vegetables considering the current weather conditions and soil moisture."
       ]
     },
     "green gram": {
       "advisory": [
-        "Pod Borer Management: Spray Emamectin Benzoate 5% SG @ 80 ml/acre or Profenophos 50 % EC @ 400 ml/acre"
+        "Grow high-yielding varieties like T 9, PU 11, PU 19 for green gram."
       ]
     },
-    "onion": {
+    "black gram": {
       "advisory": [
-        "Seed treatment should be done with Carbendazim 50% WP @ 2 g/kg of seeds or Carboxin 37.5 % + Thiram 37.5% D.S @ 3 g/kg of seeds"
+        "Grow high-yielding varieties like T 9, PU 11, PU 19, PU 30 for black gram."
       ]
     },
-    "bitter gourd": {
+    "cowpea": {
       "advisory": [
-        "To manage Fruit flies infestation, spray Malathion @ 1 ml/lt",
-        "To control Powdery mildew disease, spray Dinocap @ 1 ml/lt or Carbendazim @ 1 g/lt"
+        "Consider suitable varieties for the region and manage soil moisture for cowpea cultivation."
+      ]
+    },
+    "field pea": {
+      "advisory": [
+        "Utilize available soil moisture for successful field pea growth."
+      ]
+    },
+    "lentil": {
+      "advisory": [
+        "Ensure proper soil moisture for lentil cultivation."
+      ]
+    },
+    "groundnut": {
+      "advisory": [
+        "Use appropriate groundnut varieties suitable for the region."
+      ]
+    },
+    "tori": {
+      "advisory": [
+        "Sow Tori crops with consideration to the soil condition and moisture levels."
       ]
     },
     "brinjal": {
       "advisory": [
-        "To reduce Phomopsis blight disease, spray Metalaxyl + Mancozeb Zineb 75% WP @ 500 g/acre in 200 litres of water"
+        "Control wilt and rot diseases in Brinjal through proper management practices."
       ]
     },
-    "sheep": {
+    "tomato": {
       "advisory": [
-        "Control Liver fluke infestation by using appropriate drugs or methods"
+        "Control wilt and rot diseases in Tomato through proper management practices."
       ]
     },
-    "goats": {
+    "chilli": {
       "advisory": [
-        "Control Liver fluke infestation by using appropriate drugs or methods"
+        "Install traps for thrips infestation and use chemical control for effective management."
+      ]
+    },
+    "marigold": {
+      "advisory": [
+        "Manage Red Spider Mites in Marigold flowers through proper spray techniques."
+      ]
+    },
+    "rose": {
+      "advisory": [
+        "Manage Red Spider Mites in Rose flowers through proper spray techniques."
+      ]
+    },
+    "fisheries": {
+      "advisory": [
+        "Treat fish ponds against fungal, bacterial, and parasitic diseases during winters for better fish health."
       ]
     }
   },
-  "date": "18-10-2024"
+  "date": "06-11-2024"
 }

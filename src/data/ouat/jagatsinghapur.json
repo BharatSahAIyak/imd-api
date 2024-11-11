@@ -1,97 +1,114 @@
 {
   "weather_details": {
-    "19/10/2024": {
-      "rainfall": 5,
-      "t_max": 35,
-      "t_min": 27,
-      "rh_max": 92,
-      "rh_min": 68,
-      "wind_speed": 2,
-      "wind_direction": 90,
-      "cloud_cover": 5
-    },
-    "20/10/2024": {
-      "rainfall": 4,
-      "t_max": 34,
-      "t_min": 27,
-      "rh_max": 91,
-      "rh_min": 64,
-      "wind_speed": 6,
-      "wind_direction": 323,
-      "cloud_cover": 6
-    },
-    "21/10/2024": {
-      "rainfall": 6,
-      "t_max": 34,
-      "t_min": 26,
-      "rh_max": 88,
-      "rh_min": 62,
-      "wind_speed": 6,
-      "wind_direction": 353,
-      "cloud_cover": 6
-    },
-    "22/10/2024": {
-      "rainfall": 5,
-      "t_max": 34,
-      "t_min": 24,
-      "rh_max": 83,
-      "rh_min": 55,
-      "wind_speed": 4,
-      "wind_direction": 7,
-      "cloud_cover": 4
-    },
-    "23/10/2024": {
-      "rainfall": 7,
-      "t_max": 34,
+    "06/11/2024": {
+      "rainfall": 3,
+      "t_max": 32,
       "t_min": 24,
       "rh_max": 85,
-      "rh_min": 53,
+      "rh_min": 57,
+      "wind_speed": 9,
+      "wind_direction": 7,
+      "cloud_cover": 6
+    },
+    "07/11/2024": {
+      "rainfall": 2,
+      "t_max": 33,
+      "t_min": 24,
+      "rh_max": 86,
+      "rh_min": 59,
+      "wind_speed": 10,
+      "wind_direction": 10,
+      "cloud_cover": 5
+    },
+    "08/11/2024": {
+      "rainfall": 1,
+      "t_max": 33,
+      "t_min": 24,
+      "rh_max": 87,
+      "rh_min": 59,
       "wind_speed": 11,
-      "wind_direction": 12,
-      "cloud_cover": 7
+      "wind_direction": 11,
+      "cloud_cover": 4
+    },
+    "09/11/2024": {
+      "rainfall": 0,
+      "t_max": 32,
+      "t_min": 21,
+      "rh_max": 88,
+      "rh_min": 60,
+      "wind_speed": 10,
+      "wind_direction": 14,
+      "cloud_cover": 3
+    },
+    "10/11/2024": {
+      "rainfall": 0,
+      "t_max": 32,
+      "t_min": 21,
+      "rh_max": 87,
+      "rh_min": 55,
+      "wind_speed": 10,
+      "wind_direction": 15,
+      "cloud_cover": 2
     }
   },
   "names_of_crops": [
-    "paddy",
+    "rice",
+    "groundnut",
     "black gram",
     "green gram",
-    "onion",
-    "bitter gourd",
-    "brinjal"
+    "brinjal",
+    "chilli",
+    "marigold",
+    "rose",
+    "fisheries"
   ],
-  "general_advisory": "To control foot rot disease in paddy spray Metalaxyl 8% + Mancozeb 64% WP @ 400 gram/acre. Harvest matured crops like vegetables & pulses and keep them in a safe place. Deworming and vaccination against Foot and Mouth Disease and Brucellosis should be advised in animals. Vegetable seedlings should be transplanted in afternoon hours. Now the condition is optimum for land preparation and nursery sowing of cauliflower, cabbage, knolk. Termites may damage crops and vegetables in the present weather condition. Farmers are advised to spray Chlorpyriphos 20 EC @",
+  "general_advisory": "Farmers are advised to grow short duration Rabi crops like Green gram, Black gram, Cowpea, Field pea, Lentil, Groundnut, Tori, and Sunflower. Proper field surveillance for pests and diseases regularly is recommended. Foliar spray of micronutrients is advised.",
   "crops_data": {
-    "paddy": {
+    "rice": {
       "advisory": [
-        "False smut: False smut disease may be seen in paddy field. To manage the same, spray Propiconazole or Hexaconazole @ 100 ml or Copper oxychloride @ 250 g in 200 lt of water per acre.",
-        "Neck Blast: To control Neck Blast diseases first drain out excess water from the paddy field. Spray Hexaconazole ml/acre or Azoxystrobin+ Difenoconazole @ 200"
+        "Harvest rice crops which have reached 85% maturity of the panicle and looks pale yellow in color. After threshing, paddy grains need to be sun-dried to 14% moisture for consumption purpose and for seed purpose, it should be dried to 12% moisture for better shelf-life."
+      ]
+    },
+    "groundnut": {
+      "advisory": [
+        "Use the groundnut varieties suitable to Odisha condition like Kalinga groundnut 101, Devi, 37A, TAG-51, TAG-38, TAG-24, Smruti, CO-7, Dharani etc. For one acre 40-50 kg groundnut seed kernel is required."
       ]
     },
     "black gram": {
       "advisory": [
-        "Pod Borer Management: There are chances of Pod borer infestation in black gram and green gram crop. To manage Bihar hairy caterpillar in green gram and black gram crop spray Emamectin Benzoate 5% SG @ 80 18.5% SC @80"
+        "Grow high yielding varieties like T 9, PU 11, PU 19, and PU 30 for black gram. Use 10 kg seeds/acre. Before sowing, seeds are to be treated with the Rhizobium culture."
       ]
     },
     "green gram": {
       "advisory": [
-        "Pod Borer Management: There are chances of Pod borer infestation in black gram and green gram crop. To manage Bihar hairy caterpillar in green gram and black gram crop spray Emamectin Benzoate 5% SG @ 80 18.5% SC @80"
-      ]
-    },
-    "onion": {
-      "advisory": [
-        "Pre-sowing stage: Before sowing of seeds seed treatment should be done with Carbendazim 50% WP @ 2 Carboxin 37.5% + Thiram"
-      ]
-    },
-    "bitter gourd": {
-      "advisory": [
-        "Fruiting and Harvesting: To manage the infestation of Fruit flies, spray Malathion @ 1 ml/lt. To control the Powdery mildew disease in the crop, spray"
+        "Grow high yielding varieties like K 851, PDM 11, PDM 54, OUM 115 for green gram. Use 10 kg seeds/acre. Before sowing, seeds are to be treated with the Rhizobium culture."
       ]
     },
     "brinjal": {
       "advisory": [
-        "Flowering/Fruiting: The plants showing wilting symptoms, can be uprooted/destroyed away from the field. Phomopsis blight: To reduce the Phomopsis blight disease in brinjal, spray Metalaxyl + Mancozeb Zineb 75% WP @ 500 g/acre in 200 litres of water."
+        "To manage wilt and rot disease in Brinjal, drench the root zone with a solution of Plantomycin and 20-gram (Metalaxyl 8% + Mancozeb 64% WP) or 10 ml Tebuconazole of water."
+      ]
+    },
+    "chilli": {
+      "advisory": [
+        "To manage thrips infestation, install Blue sticky trap @ 8 nos./acre. For chemical control spray Emamectin Benzoate 5% SG @ 0.4 g/lit or Fipronil 5% SC @ 2ml/lit or Imidacloprid 17.8% SL 0.35 ml/lit of water."
+      ]
+    },
+    "marigold": {
+      "advisory": [
+        "To manage Red Spider Mites in flowers like Marigold, spray wettable sulphur 80% WP (Sulfex/Balwan/Sulfadex) @ 2-gram/litre of water or Propargite 57% EC @ 2 ml/litre of water or Fenpyroximate 5% EC @ 2 ml/litre of water."
+      ]
+    },
+    "rose": {
+      "advisory": [
+        "To manage Red Spider Mites in flowers like Rose, spray wettable sulphur 80% WP (Sulfex/Balwan/Sulfadex) @ 2-gram/litre of water or Propargite 57% EC @ 2 ml/litre of water or Fenpyroximate 5% EC @ 2 ml/litre of water."
+      ]
+    },
+    "fisheries": {
+      "advisory": [
+        "During winters, various fungal, bacterial and parasitic diseases may appear in fish. Treat the pond with CIFAX @ 400 ml/acre or limestone @ 50-100 kg/acre. Salt application @ 100 kg/acre also helps in protecting fish against disease outbreak during winters."
       ]
     }
   },
-  "date": "18-10-2024"
+  "date": "05-11-2024"
 }

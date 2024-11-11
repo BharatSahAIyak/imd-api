@@ -1,138 +1,124 @@
 {
   "weather_details": {
-    "19-10-2024": {
-      "rainfall": 0,
-      "t_max": 33,
-      "t_min": 26,
-      "rh_max": 93,
-      "rh_min": 59,
-      "wind_speed": 1,
-      "wind_direction": 45,
-      "cloud_cover": 5
-    },
-    "20-10-2024": {
-      "rainfall": 5,
+    "02-11-2024": {
+      "rainfall": 0.4,
       "t_max": 32,
-      "t_min": 25,
-      "rh_max": 92,
-      "rh_min": 62,
+      "t_min": 24,
+      "rh_max": 85.3,
+      "rh_min": 39.9,
       "wind_speed": 2,
-      "wind_direction": 45,
-      "cloud_cover": 6
-    },
-    "21-10-2024": {
-      "rainfall": 2,
-      "t_max": 32,
-      "t_min": 25,
-      "rh_max": 89,
-      "rh_min": 60,
-      "wind_speed": 2,
-      "wind_direction": 39,
-      "cloud_cover": 7
-    },
-    "22-10-2024": {
-      "rainfall": 1,
-      "t_max": 32,
-      "t_min": 25,
-      "rh_max": 86,
-      "rh_min": 48,
-      "wind_speed": 3,
-      "wind_direction": 30,
-      "cloud_cover": 6
-    },
-    "23-10-2024": {
-      "rainfall": 0,
-      "t_max": 32,
-      "t_min": 25,
-      "rh_max": 77,
-      "rh_min": 43,
-      "wind_speed": 5,
-      "wind_direction": 90,
+      "wind_direction": 296,
       "cloud_cover": 4
+    },
+    "03-11-2024": {
+      "rainfall": 0.1,
+      "t_max": 32,
+      "t_min": 23,
+      "rh_max": 73.6,
+      "rh_min": 36.3,
+      "wind_speed": 1,
+      "wind_direction": 0,
+      "cloud_cover": 4
+    },
+    "04-11-2024": {
+      "rainfall": 0.1,
+      "t_max": 32,
+      "t_min": 23,
+      "rh_max": 73.8,
+      "rh_min": 35.3,
+      "wind_speed": 2,
+      "wind_direction": 258,
+      "cloud_cover": 3
+    },
+    "05-11-2024": {
+      "rainfall": 0.2,
+      "t_max": 31,
+      "t_min": 23,
+      "rh_max": 73.9,
+      "rh_min": 36.5,
+      "wind_speed": 2,
+      "wind_direction": 225,
+      "cloud_cover": 3
+    },
+    "06-11-2024": {
+      "rainfall": 0.2,
+      "t_max": 31,
+      "t_min": 22,
+      "rh_max": 79.8,
+      "rh_min": 41.4,
+      "wind_speed": 1,
+      "wind_direction": 236,
+      "cloud_cover": 2
     }
   },
   "names_of_crops": [
     "paddy",
     "cotton",
+    "mustard & toria",
     "arhar",
-    "hybrid maize",
-    "tomato",
-    "cole crops",
-    "onion",
-    "merigold",
-    "rose",
+    "brinjal",
+    "chilli",
     "cattle & buffalo",
-    "goat & sheep"
+    "goat & sheep",
+    "poultry"
   ],
-  "general_advisory": "As per extended range forecast from IMD, light to moderate rain likely. Temperature range expected. Farmers advised to continue intercultural operations, harvesting of matured produces, and application of pesticides mixed with sticker as needed.",
+  "general_advisory": "Harvest the matured vegetables & pulses and store in a safe place. Protect the vegetable nursery of Chilli, tomato, onion, cole crops and brinjal etc. from rain by covering with plastic or polythene sheet. Field preparation should be started for rabi crops. Now is the suitable time for sowing mustard, sarson, sunflower, field pea, carrot, radish etc. Pulses like lentil/black gram/green gram can be broadcasted in the standing matured crop (Rice) one week before harvesting to utilize the residual moisture in the soil in suitable areas.",
   "crops_data": {
     "paddy": {
       "advisory": [
-        "Prevailing weather conditions favorable for disease incidence. Vigilance advised.",
-        "Gundhi Bug infestation control measures.",
-        "Ear cutting caterpillar control.",
-        "BPH infestation management."
+        "In early maturing varieties, harvest the crop when 80-85% of the grains are matured. Dry grains to appropriate moisture content."
       ]
     },
     "cotton": {
       "advisory": [
-        "American bollworm control measures.",
-        "Bacterial leaf blight control."
+        "Apply Emamectin benzoate or Profenophos for American bollworm control.",
+        "Apply Streptocycline + Copper Oxychloride for bacterial leaf blight control.",
+        "Spray Copper Oxychloride + Plantomycin for grey mildew infestation."
+      ]
+    },
+    "mustard & toria": {
+      "advisory": [
+        "Treat the seed before sowing. Use suitable varieties."
       ]
     },
     "arhar": {
       "advisory": [
-        "Leaf webber/leaf folder/defoliators control.",
-        "Pod borer control."
+        "Control leaf webber/leaf folder/defoliators with specified pesticides.",
+        "Control pod borer with neem-based pesticides."
       ]
     },
-    "hybrid maize": {
+    "brinjal": {
       "advisory": [
-        "American Cob Borer control.",
-        "BLSB management."
+        "Use pheromone traps for borer insect monitoring.",
+        "Spray specified chemicals for control."
       ]
     },
-    "tomato": {
+    "chilli": {
       "advisory": [
-        "Seedling wilt prevention measures.",
-        "Suitable varieties."
-      ]
-    },
-    "cole crops": {
-      "advisory": [
-        "Nursery bed preparation.",
-        "Suitable varieties for cauliflower, cabbage, and broccoli."
-      ]
-    },
-    "onion": {
-      "advisory": [
-        "Nursery bed preparation steps.",
-        "Suitable onion varieties."
-      ]
-    },
-    "merigold": {
-      "advisory": [
-        "Mealy bug infestation control measures."
-      ]
-    },
-    "rose": {
-      "advisory": [
-        "Training, pruning, and intercultural operations recommendations.",
-        "Black spot control."
+        "Install blue sticky traps for thrips control.",
+        "Spray specified chemicals for thrips management."
       ]
     },
     "cattle & buffalo": {
       "advisory": [
-        "Deworming and vaccination advice.",
-        "Consultation for puberty onset."
+        "Deworm and vaccinate animals regularly.",
+        "Consult veterinary doctors for reproductive issues."
       ]
     },
     "goat & sheep": {
       "advisory": [
-        "Dehydration, heat stress, and parasitic infection checks.",
-        "Deworming and vaccination guidance."
+        "Check animals for dehydration, heat stress, and parasitic infections.",
+        "Deworm and vaccinate animals as needed."
+      ]
+    },
+    "poultry": {
+      "advisory": [
+        "Maintain cleanliness in poultry houses by using raised platforms and deep litter systems.",
+        "Regularly clean and disinfect the house to prevent pathogen buildup.",
+        "Maintain appropriate stocking density to reduce stress and prevent overheating."
       ]
     }
   },
-  "date": "18-10-2024"
+  "date": "01-11-2024",
+  "ERROR": "Not getting consistent data."
 }

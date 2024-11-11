@@ -59,52 +59,79 @@
     "brinjal",
     "coconut",
     "vegetables",
-    "fingerlings"
+    "fingerlings",
+    "black gram",
+    "green gram",
+    "onion",
+    "mango",
+    "okra"
   ],
-  "general_advisory": "In paddy crop, Panicle initiation, Panicle emergence, flowering and milking stages are the critical stages...",
+  "general_advisory": "In paddy crop, Panicle initiation, Panicle emergence, flowering, and milking stages are critical. Cover rows with dry leaves in sugarcane. Apply sprinkler irrigation for heat effect. Irrigate maize adequately. Spread polythene in irrigation channels for water savings. Apply Streptocyclin in tomato and brinjal. Mulch coconut leaves and cover vegetable seedlings. Harvest fingerlings in shallow ponds. For crops like sugarcane and brinjal, specific advice is provided for disease and pest management.",
   "crops_data": {
     "paddy": {
       "advisory": [
-        "Panicle initiation, Panicle emergence, flowering and milking stages are the critical stages...",
-        "Dry weather may prevail over the district for the next five days..."
+        "Yellow stem borer management",
+        "Blast disease management"
       ]
     },
     "sugarcane": {
       "advisory": [
-        "Cover the rows with dry leaves in Sugarcane. Top-dress with 4% potassium to protect crop from water scarcity during summer...",
-        "Early Shoot Borer : To manage early shoot borer in Sugarcane..."
+        "Early shoot borer management"
       ]
     },
     "maize": {
       "advisory": [
-        "The high temperature increases the water requirement of maize crop. Irrigate the crop...",
-        "Never allow water to remain stagnant for more than six hours in the field..."
+        "Irrigate the crop adequately"
       ]
     },
     "tomato": {
       "advisory": [
-        "High temperature in day hours may lead to wilting in tomato and brinjal. Apply 1g Streptocyclin in 10 liter water in root zone..."
+        "Apply 1g Streptocyclin in 10 liter water in root zone"
       ]
     },
     "brinjal": {
       "advisory": [
-        "Brinjal shoot and fruit borer - To manage this insect, install 20 nos. of pheromone trap having Leucin Lure per acre...",
-        "Go for chemical control if there is 4% withering of terminal shoot or 14% fruits infested with borers..."
+        "Brinjal shoot and fruit borer management"
       ]
     },
     "coconut": {
       "advisory": [
-        "Mulch coconut leaves 1.8 m around a coconut tree to reduce water loss..."
+        "Mulch coconut leaves 1.8 m around a coconut tree"
       ]
     },
     "vegetables": {
       "advisory": [
-        "Cover with paper caps on the newly planted vegetable seedlings during daytime..."
+        "Cover with paper caps on the newly planted vegetable seedlings during day time"
       ]
     },
     "fingerlings": {
       "advisory": [
-        "In shallow ponds, harvest fingerlings, if water temperature rises to 30°C..."
+        "In shallow ponds, harvest fingerlings if water temperature rises to 30°C"
+      ]
+    },
+    "black gram": {
+      "advisory": [
+        "Tobacco caterpillar management"
+      ]
+    },
+    "green gram": {
+      "advisory": [
+        "Tobacco caterpillar management"
+      ]
+    },
+    "onion": {
+      "advisory": [
+        "After harvesting cut the tops leaving 2.0-2.5 cm above bulb"
+      ]
+    },
+    "mango": {
+      "advisory": [
+        "Mango hopper management"
+      ]
+    },
+    "okra": {
+      "advisory": [
+        "Whitefly infestation prevention"
       ]
     }
   },
