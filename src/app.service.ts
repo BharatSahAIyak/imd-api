@@ -75,7 +75,6 @@ export class AppService {
 
   private async getWeatherFromIMD(lat: string, long: string) {
     try {
-      // const dist = this.configService.get<number>('IMD_MIN_STATION_DISTANCE');
       let startTime = performance.now();
       const stationId = getStationId(lat, long);
       let endTime = performance.now();
@@ -97,25 +96,25 @@ export class AppService {
       this.logger.verbose(
         `Time taken to get IMD data from JSON: ${endTime - startTime}`,
       );
-      startTime = performance.now();
-      let visualCrossing;
-      try {
-        visualCrossing = await this.httpService.axiosRef.get(
-          `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat}%2C${long}?unitGroup=metric&key=DK34QYLLWYWRKMXGCXPFFP6SR&contentType=json`,
-        );
-      } catch (err) {
-        console.error('error fetching visual crossing data: ', err);
-      }
-      endTime = performance.now();
-      this.logger.verbose(
-        `Time taken to get visual crossing data: ${endTime - startTime}`,
-      );
+      // startTime = performance.now();
+      // let visualCrossing;
+      // try {
+      //   visualCrossing = await this.httpService.axiosRef.get(
+      //     `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat}%2C${long}?unitGroup=metric&key=DK34QYLLWYWRKMXGCXPFFP6SR&contentType=json`,
+      //   );
+      // } catch (err) {
+      //   console.error('error fetching visual crossing data: ', err);
+      // }
+      // endTime = performance.now();
+      // this.logger.verbose(
+      //   `Time taken to get visual crossing data: ${endTime - startTime}`,
+      // );
 
       // console.log('forecast data: ', forecastData);
       return {
         imd: forecastData,
-        visualCrossing: visualCrossing.data.currentConditions,
-        future: visualCrossing.data.days.slice(1, 5),
+        visualCrossing: {},
+        future: [],
       };
     } catch (err) {
       this.logger.error('Error resolving API Calls', err);
@@ -210,7 +209,6 @@ export class AppService {
     provider?: string,
     weatherProvider?: string,
   ) {
-    console.log('weather provider: ', weatherProvider);
     if (!provider) provider = ADVISORY_PROVIDERS.UPCAR;
     if (!weatherProvider) weatherProvider = WEATHER_PROVIDERS.IMD;
     let imdItems = undefined,
@@ -275,13 +273,13 @@ export class AppService {
         } catch (err) {
           console.error('error in formatting date: ', err);
         }
-        if (!imdData.imd) {
-          imdData.imd = {
-            Station_Name: district,
-            date: date,
-            Todays_Forecast: imdData.visualCrossing.conditions,
-          };
-        }
+        // if (!imdData.imd) {
+        //   imdData.imd = {
+        //     Station_Name: district,
+        //     date: date,
+        //     Todays_Forecast: imdData.visualCrossing.conditions,
+        //   };
+        // }
         // console.log('imdData after if: ', imdData);
 
         const sanitizedIMDData = sanitizeIMDWeather(imdData);
