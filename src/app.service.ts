@@ -415,4 +415,12 @@ export class AppService {
       );
     }
   }
+
+  updateCrops(data: any) {
+    fs.writeFileSync(path.join(__dirname, `db/crop-translations.json`), JSON.stringify(data, null, 2));
+  }
+
+  updateConditions(data: any) {
+    fs.writeFileSync(path.join(__dirname, `db/conditions.json`), JSON.stringify(data, null, 2));
+  }
 }

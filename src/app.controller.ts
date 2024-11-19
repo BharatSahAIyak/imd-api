@@ -1,9 +1,11 @@
 import {
+  Body,
   Controller,
   Get,
   Inject,
   InternalServerErrorException,
   Logger,
+  Post,
   Query,
 } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -226,5 +228,15 @@ export class AppController {
       1000 * 60 * 60 * 4,
     );
     return result;
+  }
+
+  @Post('crops')
+  updateCrops(@Body() data: any) {
+    return this.appService.updateCrops(data);
+  }
+
+  @Post('conditions')
+  updateConditions(@Body() data: any) {
+    return this.appService.updateConditions(data);
   }
 }
