@@ -11,7 +11,7 @@ export class UPCARAdvisoryController {
   @Get('')
   async getAdvisory() {
     this.logger.log('Getting UPCAR Advisory');
-    return this.UPCARAdvisoryService.getAdvisory();
+    return this.UPCARAdvisoryService.getRawAdvisory();
   }
 
   @Post('')

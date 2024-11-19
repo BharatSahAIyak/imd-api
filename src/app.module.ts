@@ -8,6 +8,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { CronModule } from './crons/cron.module';
 import { AdvisoryModule } from './providers/advisory/advisory.module';
 import { WeatherModule } from './providers/weather/weather.module';
+import { MinioModule } from './minio/minio.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { WeatherModule } from './providers/weather/weather.module';
     CronModule,
     AdvisoryModule,
     WeatherModule,
+    MinioModule,
   ],
   controllers: [AppController],
   providers: [AppService],

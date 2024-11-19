@@ -230,9 +230,19 @@ export class AppController {
     return result;
   }
 
+  @Get('crops')
+  getCrops() {
+    return this.appService.getCrops();
+  }
+
   @Post('crops')
   updateCrops(@Body() data: any) {
     return this.appService.updateCrops(data);
+  }
+
+  @Get('conditions')
+  getConditions() {
+    return this.appService.getConditions();
   }
 
   @Post('conditions')

@@ -1,14 +1,15 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, InternalServerErrorException, Logger, NotFoundException } from '@nestjs/common';
 import { OUAT_ORIA_DISTRICTS } from '../../../app.constants';
 import { readMultipleJSONs } from '../../../app.utils';
 import { ODISHA_DISTRICTS } from '../../../constants/odisha-districts';
 import * as fs from 'fs';
-import path from "path";
+import * as path from "path";
+import { MinIOService } from 'src/minio/minio.service';
 
 
 @Injectable()
 export class OUATAdvisoryService {
-  constructor(private readonly logger: Logger) {}
+  constructor(private readonly logger: Logger, private readonly minioService: MinIOService) {}
 
   private async fetchAdvisoryDataFromOUAT(district: string) {
     district = !ODISHA_DISTRICTS.includes(district.toLowerCase())
@@ -49,11 +50,17 @@ export class OUATAdvisoryService {
     // TODO: Use update functions to update advisory data
     let folderPath = '';
     if (lang === 'or') {
-      folderPath = path.join(__dirname, `../../../../data/ouat/odia/${district}.json`);
+      folderPath = path.join(__dirname, `../../../data/ouat/odia/${district}.json`);
     } else {
-      folderPath = path.join(__dirname, `../../../../data/ouat/${district}.json`);
+      folderPath = path.join(__dirname, `../../../data/ouat/${district}.json`);
+    }
+    this.logger.log(folderPath);
+    if (!fs.existsSync(folderPath)) {
+      this.logger.error(`File ${folderPath} does not exist`);
+      throw new InternalServerErrorException(`File ${folderPath} does not exist`);
     }
     fs.writeFileSync(folderPath, JSON.stringify(data, null, 2));
+    this.minioService.uploadFile('vistaar', `ouat/${lang == 'or' ? 'odia/' : ''}${folderPath.split('/').pop()}`, Buffer.from(JSON.stringify(data, null, 2)), 'application/json');
     return { message: 'Advisory updated successfully' };
   }
 }
