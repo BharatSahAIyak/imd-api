@@ -1,6 +1,5 @@
 import { Body, Controller, Get, Injectable, Logger, Post, Query } from "@nestjs/common";
 import { OUATAdvisoryService } from "./ouat.service";
-
 @Injectable()
 @Controller('ouat')
 export class OUATAdvisoryController {
@@ -13,8 +12,8 @@ export class OUATAdvisoryController {
   }
 
   @Post('')
-  async updateAdvisory(@Body() data: any) {
+  async updateAdvisory(@Body() data: any, @Query('district') district: string, @Query('lang') lang: string) {
     this.logger.log('Updating OUAT Advisory');
-    return this.ouatAdvisoryService.updateAdvisory(data);
+    return this.ouatAdvisoryService.updateAdvisory(data, district, lang);
   }
 }

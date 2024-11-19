@@ -1,6 +1,8 @@
 import { Injectable, Logger } from "@nestjs/common";
 import { CROP_MAPPINGS, readMultipleJSONs } from "../../../app.utils";
 import { mapAdvisoryData } from "../../../beckn.utils";
+import * as fs from 'fs';
+import * as path from 'path';
 
 @Injectable()
 export class UPCARAdvisoryService {
@@ -52,9 +54,16 @@ export class UPCARAdvisoryService {
   }
 
   // TODO: Add advisory data typescript type
-  async updateAdvisory(data) {
+  async updateAdvisory(data: any, lang: string) {
     // TODO: Integrate MinIO to upload and save advisory data
     // TODO: Use update functions to update advisory data
+    let folderPath = '';
+    if (lang === 'hi') {
+      folderPath = path.join(__dirname, `../../../../data/upcar/latest_hindi.json`);
+    } else {
+      folderPath = path.join(__dirname, `../../../../data/upcar/latest.json`);
+    }
+    fs.writeFileSync(folderPath, JSON.stringify(data, null, 2));
     return { message: 'Advisory updated successfully' };
   }
 }

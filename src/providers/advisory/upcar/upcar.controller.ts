@@ -1,11 +1,11 @@
-import { Body, Controller, Get, Injectable, Logger, Post } from "@nestjs/common";
+import { Body, Controller, Get, Injectable, Logger, Post, Query } from "@nestjs/common";
 import { UPCARAdvisoryService } from "./upcar.service";
 
 @Injectable()
 @Controller('upcar')
-export class UPCARController {
+export class UPCARAdvisoryController {
   constructor(private readonly UPCARAdvisoryService: UPCARAdvisoryService, private readonly logger: Logger) {
-    this.logger = new Logger(UPCARController.name);
+    this.logger = new Logger(UPCARAdvisoryController.name);
   }
 
   @Get('')
@@ -15,9 +15,8 @@ export class UPCARController {
   }
 
   @Post('')
-  async updateAdvisory(@Body() data: any) {
+  async updateAdvisory(@Body() data: any, @Query('lang') lang: string) {
     this.logger.log('Updating UPCAR Advisory');
-    return this.UPCARAdvisoryService.updateAdvisory(data);
+    return this.UPCARAdvisoryService.updateAdvisory(data, lang);
   }
-
 }

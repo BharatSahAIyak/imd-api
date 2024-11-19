@@ -2,6 +2,9 @@ import { Injectable, Logger } from '@nestjs/common';
 import { OUAT_ORIA_DISTRICTS } from '../../../app.constants';
 import { readMultipleJSONs } from '../../../app.utils';
 import { ODISHA_DISTRICTS } from '../../../constants/odisha-districts';
+import * as fs from 'fs';
+import path from "path";
+
 
 @Injectable()
 export class OUATAdvisoryService {
@@ -41,9 +44,16 @@ export class OUATAdvisoryService {
     }
   }
 
-  async updateAdvisory(data: any) {
+  async updateAdvisory(data: any, district: string, lang: string) {
     // TODO: Integrate MinIO to upload and save advisory data
     // TODO: Use update functions to update advisory data
+    let folderPath = '';
+    if (lang === 'or') {
+      folderPath = path.join(__dirname, `../../../../data/ouat/odia/${district}.json`);
+    } else {
+      folderPath = path.join(__dirname, `../../../../data/ouat/${district}.json`);
+    }
+    fs.writeFileSync(folderPath, JSON.stringify(data, null, 2));
     return { message: 'Advisory updated successfully' };
   }
 }
