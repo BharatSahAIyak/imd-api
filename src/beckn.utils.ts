@@ -6,7 +6,7 @@ import {
   getParsedDate,
   getWindDirection,
 } from './app.utils';
-import { format, parse } from 'date-fns';
+import { format } from 'date-fns';
 import {
   IMDFutureWeatherDetails,
   SanitizedIMDWeather,
@@ -52,30 +52,30 @@ export const mapIMDItems = (sanitizedIMDData: SanitizedIMDWeather) => {
           type: 'icon',
         },
       ],
-      time: {
-        label: 'Date of Observation',
-        timestamp: sanitizedIMDData.general.date,
-      },
-      locations_ids: [sanitizedIMDData.general.station],
-      category_ids: [WEATHER_CATEGORY_IDS.CURRENT_WEATHER],
-      tags: {
-        conditions: conditions,
-        conditions_hi: WEATHER_DATA[conditions].hi_translated,
-        conditions_or: WEATHER_DATA[conditions].or_translated,
-        temp: sanitizedIMDData.current.temp,
-        humidity: sanitizedIMDData.current.humidity,
-        winddir: getWindDirection(sanitizedIMDData.current.windDirection, 'en'),
-        winddir_hi: getWindDirection(
-          sanitizedIMDData.current.windDirection,
-          'hi',
-        ),
-        winddir_or: getWindDirection(
-          sanitizedIMDData.current.windDirection,
-          'or',
-        ),
-        windspeed: sanitizedIMDData.current.windSpeed,
-        cloudcover: sanitizedIMDData.current.cloudCover,
-      },
+    },
+    time: {
+      label: 'Date of Observation',
+      timestamp: sanitizedIMDData.general.date,
+    },
+    locations_ids: [sanitizedIMDData.general.station],
+    category_ids: [WEATHER_CATEGORY_IDS.CURRENT_WEATHER],
+    tags: {
+      conditions: conditions,
+      conditions_hi: WEATHER_DATA[conditions].hi_translated,
+      conditions_or: WEATHER_DATA[conditions].or_translated,
+      temp: sanitizedIMDData.current.temp,
+      humidity: sanitizedIMDData.current.humidity,
+      winddir: getWindDirection(sanitizedIMDData.current.windDirection, 'en'),
+      winddir_hi: getWindDirection(
+        sanitizedIMDData.current.windDirection,
+        'hi',
+      ),
+      winddir_or: getWindDirection(
+        sanitizedIMDData.current.windDirection,
+        'or',
+      ),
+      windspeed: sanitizedIMDData.current.windSpeed,
+      cloudcover: sanitizedIMDData.current.cloudCover,
     },
   });
 
@@ -129,21 +129,23 @@ export const mapIMDItems = (sanitizedIMDData: SanitizedIMDWeather) => {
 export const mapAdvisoryData = (upcarData, provider) => {
   const items = [];
   // map general advisory
-  items.push({
-    category_ids: ['general_advisory'],
-    code: 'general',
-    descriptor: {
-      name: 'General Crop Advisory',
-      long_desc: upcarData.general_advisory,
-      images: [
-        {
-          url: CROP_IMAGES['general_advisory']
-            ? CROP_IMAGES['general_advisory']
-            : CROP_IMAGES['wheat'],
-        },
-      ],
-    },
-  });
+  if (upcarData.general_advisory) {
+    items.push({
+      category_ids: ['general_advisory'],
+      code: 'general',
+      descriptor: {
+        name: 'General Crop Advisory',
+        long_desc: upcarData.general_advisory,
+        images: [
+          {
+            url: CROP_IMAGES['general_advisory']
+              ? CROP_IMAGES['general_advisory']
+              : CROP_IMAGES['wheat'],
+          },
+        ],
+      },
+    });
+  }
   // map crop specific stuff
   Object.keys(upcarData.crops_data).forEach((key) => {
     items.push({
