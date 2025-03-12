@@ -71,10 +71,11 @@ export class AppService {
           'No IMD weather station found for the sent coordinates.',
         );
       }
+      const visualCrossingApiKey = this.configService.get<string>('VISUALCROSSING_API_KEY');
       const baseURL = this.configService.get<string>('IMD_BASE_URL');
       const urls = [
         `${baseURL}/api/cityweather_loc.php?id=${stationId}`,
-        `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat}%2C${long}?unitGroup=metric&key=UFQNJT8FL927DT7HNQME9HWSL&contentType=json`,
+        `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat}%2C${long}?unitGroup=metric&key=${visualCrossingApiKey}&contentType=json`,
       ];
 
       const apiCalls = urls.map((url: string) => {
